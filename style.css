@@ -206,7 +206,7 @@ span {
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--second-bg-color);
+    border: .2rem solid var(--bg-color);
     transition: .6s ease;
 }
 
@@ -221,7 +221,7 @@ span {
 }
 
 .services-box h3 {
-    font-size: 2.6rem;
+    font-size: 3.6rem;
 }
 
 .services-box p {
@@ -229,28 +229,50 @@ span {
     line-height: 2.5rem;
     margin: 1rem 0 3rem;
 }
-.contact
-{
-    background: var(--bg-color);
+
+.certificates-training-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color:var(--bg-color); /* Background color */
+    border-radius: 10px;
 }
-.contact h2{
-    margin-bottom: 3rem;
+
+.certificates-box, .trainings-box {
+    width: 48%; /* Adjust width to fit two boxes side by side */
+    background-color: var(--bg-color) /* Box background color */
+    
 }
-.certificates-container .btn {
-            font-size: 1.2rem; /* Adjust text size */
-            padding: 10px 20px;
-            margin: 10px 0;
-            background-color: #333; /* Button background color */
-            color: #fff; /* Button text color */
-            border: none;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-            display: inline-block;
-        }
-        .certificates-container .btn:hover {
-            background-color: #555; /* Darker background on hover */
-        }
+
+.certificates-box h3, .trainings-box h3 {
+    font-size: 2.5rem; /* Increased the font size */
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--text-color); /* Changed color to white */
+    border-bottom: 2px solid #d1efef;
+    padding-bottom: 10px;
+}
+
+
+.certificate-box  {
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--text-color); /* Button background color */
+    color: var(--text-color); /* Button text colAor */
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Removed hover effect */
+.certificate-box  {
+    background-color: var(--main-color); /* Keep the same color on hover */
+}
+
+
 .footer{
     display: flex;
     justify-content: space-between;
