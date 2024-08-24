@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="style.css">
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        /* Inline CSS to adjust button styles */
+        .certificates-container .btn {
+            font-size: 1.2rem; /* Adjust text size */
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #333; /* Button background color */
+            color: #fff; /* Button text color */
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .certificates-container .btn:hover {
+            background-color: #555; /* Darker background on hover */
+        }
+    </style>
 </head>
 
 <body>
@@ -20,17 +38,17 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#certificates">Certificates</a>
         </nav>
     </header>
     <!-- home section design -->
-       <section class="home" id="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Keerthi Nerella</h1>
-            <h3><p>I'm a web developer and machine learning enthusiast on a mission to create cool stuff that works seamlessly.I bring websites to life using languages like HTML,CSS, and JavaScript.On the other side,I'm diving into the world of machine learning.</p></h3>
+            <h3><p>I'm a web developer and machine learning enthusiast on a mission to create cool stuff that works seamlessly. I bring websites to life using languages like HTML, CSS, and JavaScript. On the other side, I'm diving into the world of machine learning.</p></h3>
             <h3>What made me choose this?</h3>
-                <h3><p>I chose this spot where Webdevelopment and machine learning collide.Imagine websites that not only look good but also do smart things.This is cool,right?If you have the same vibes, I'm all ears for new connections and collaborations!</p></h3>
+            <h3><p>I chose this spot where Webdevelopment and machine learning collide. Imagine websites that not only look good but also do smart things. This is cool, right? If you have the same vibes, I'm all ears for new connections and collaborations!</p></h3>
             <div class="social-media">
                 <a href="https://www.linkedin.com/in/nerella-keerthi-590441259/" target="_blank"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/keerthi070" target="_blank"><i class='bx bxl-github'></i></a>
@@ -42,13 +60,13 @@
             <img src="pictures.jpg" alt="myimage">
         </div>
     </section>
-    <!-- services section design -->
+    <!-- projects section design -->
     <section class="projects" id="projects">
         <h2 class="heading">My <span>Projects</span></h2>
         <div class="services-container">
             <div class="services-box">
                 <i class='bx bx-code-alt'></i>
-                <h3>Web Developement</h3>
+                <h3>Web Development</h3>
                 <p>About Designing a webpage for online food delivery involves structuring with HTML and styling with CSS. It features clear navigation, enticing food images, and user-friendly forms for easy ordering. Prioritizing accessibility ensures all users can comfortably navigate the site.</p>
                 <a href="https://github.com/keerthi070/Restaurant" class="btn" target="_blank">Read More</a>
             </div>
@@ -61,37 +79,37 @@
             </div>
         </div>
     </section>
-    <!-- portfolio section design -->
-    
-    <!-- Contact section design -->
+    <!-- certificates and training section design -->
     <section class="certificates" id="certificates">
         <h2 class="heading">My <span>Certificates & Training</span></h2>
-        <div class="certificates-container">
-            <!-- Certificates -->
-            <h2>Certificates:</h2>
-            <div class="certificate-box">
-                <a href="python_basic certificate.pdf" target="_blank">Python Basic Certificate</a>
-            </div>
-            <div class="certificate-box">
-                <a href="sql_basic certificate.pdf" target="_blank">SQL Basic</a>
-            </div>
-            <div class="certificate-box">
-                <a href="sql_intermediate certificate.pdf" target="_blank">SQL Intermediate</a>
-            </div>
-            <div class="certificate-box">
-                <a href="Introduction to Data Science.pdf" target="_blank">Introduction to Data Science</a>
-            </div>
-            <div class="certificate-box">
-                <a href="Introduction to Natural Language Processing.pdf" target="_blank">Introduction to NLP</a>
-            </div>
-            <div class="certificate-box">
-                <a href="Introduction to AI.pdf" target="_blank">Introduction to AI</a>
-            </div>
-            <div class="certificate-box">
-                <a href="Email Writing.pdf" target="_blank">Email Writing</a>
-            </div>
-            <div class="certificate-box">
-                <a href="High impact Presentations.pdf" target="_blank">High Impact Presentations</a>
+        <div class="certificates-training-container">
+            <!-- Certificates Box -->
+            <div class="certificates-box">
+                <h3>Certificates</h3>
+                <div class="certificate-box">
+                    <a href="python_basic certificate.pdf" target="_blank" class="btn">Python Basic Certificate</a>
+                </div>
+                <div class="certificate-box">
+                    <a href="sql_basic certificate.pdf" target="_blank" class="btn">SQL Basic</a>
+                </div>
+                <div class="certificate-box">
+                    <a href="sql_intermediate certificate.pdf" target="_blank" class="btn">SQL Intermediate</a>
+                </div>
+                <div class="certificate-box">
+                    <a href="Introduction to Data Science.pdf" target="_blank" class="btn">Introduction to Data Science</a>
+                </div>
+                <div class="certificate-box">
+                    <a href="Introduction to Natural Language Processing.pdf" target="_blank" class="btn">Introduction to NLP</a>
+                </div>
+                <div class="certificate-box">
+                    <a href="Introduction to AI.pdf" target="_blank" class="btn">Introduction to AI</a>
+                </div>
+                <div class="certificate-box">
+                    <a href="Email Writing.pdf" target="_blank" class="btn">Email Writing</a>
+                </div>
+                <div class="certificate-box">
+                    <a href="High impact Presentations.pdf" target="_blank" class="btn">High Impact Presentations</a>
+                </div>
             </div>
             <!-- Training -->
             <h2>Training:</h2>
