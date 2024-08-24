@@ -186,7 +186,7 @@ span {
 }
 .services
 {
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 .services h2 {
     margin-bottom: 5rem;
