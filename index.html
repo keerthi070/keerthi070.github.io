@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1><span>Keerthi </span>Nerella</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I design and build websites with interactive things which makes webpage fascinating.Solving complex problems excites me.I love making things easier than it appears to be.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/nerella-keerthi-590441259/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/keerthi070" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1VpVfntxIsx-WAfxfUMWQt0EwMk09fc4G" target="_blank" class="btn">My Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="home.jpg" alt="myimage">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.jpg" alt="image" height="500">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I'm a web developer and machine learning enthusiast on a mission to create cool stuff that works seamlessly.I bring websites to life using languages like HTML,CSS, and JavaScript.On the other side,I'm diving into the world of machine learning.
+
+                What made me choose this?I chose this spot where Webdevelopment and machine learning collide.Imagine websites that not only look good but also do smart things.This is cool,right?If you have the same vibes, I'm all ears for new connections and collaborations!</p>
+            <a href="#contact" class="btn">Contact me</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Developement</h3>
+                <p>About Designing a webpage for online food delivery involves structuring with HTML and styling with CSS. It features clear navigation, enticing food images, and user-friendly forms for easy ordering. Prioritizing accessibility ensures all users can comfortably navigate the site.</p>
+                <a href="https://github.com/keerthi070/Restaurant" class="btn" target="_blank">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-python'></i>
+                <h3>Coffee Central</h3>
+                <p>The Coffee Central project involves a Graphical User Interface(GUI) for analyzing the optimal location in the city which is nearer to the maximum number of coffee shops in the city while considering the average person's willingness to walk only a set number of blocks for their caffeine fix.</p>
+                <a href="https://github.com/keerthi070/CoffeeCentral" class="btn" target="_blank">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section design -->
+    
+    <!-- Contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Keerthi | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+    <!-- custom js -->
+    <script src="script.js"></script>
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".text",{
+            strings: ["Frontend Developer.","Coder."],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000
+        })
+    </script>
+</body>
+
+</html>
