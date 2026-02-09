@@ -318,6 +318,10 @@ span {
     text-align: center;
     text-decoration: none;
 }
+.certificate-box p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
 
 /* Removed hover effect */
 .certificate-box  {
