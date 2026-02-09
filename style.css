@@ -307,18 +307,17 @@ span {
 }
 
 
-.certificate-box  {
-    display: block;
-    font-size: 1rem;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: var(--text-color); /* Button background color */
-    color: #000000; /* Button text colAor */
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-}
 
+.certificate-box {
+    display: block;
+    font-size: 1.4rem;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    background-color: var(--main-color); /* cyan */
+    color: #000000; /* black text */
+    border-radius: 6px;
+    text-align: center;
+}
 /* Removed hover effect */
 .certificate-box  {
     background-color: var(--main-color); /* Keep the same color on hover */
